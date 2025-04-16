@@ -1,4 +1,4 @@
-# superfabpy: Python wrapper for SphericalFourierBesselDecompositions.jl
+# SuperFaBpy: Python wrapper for SphericalFourierBesselDecompositions.jl
 
 This is a simple Python wrapper for [`SphericalFourierBesselDecompositions.jl`](https://github.com/hsgg/SphericalFourierBesselDecompositions.jl).
 
