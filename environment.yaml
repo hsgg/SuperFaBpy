@@ -1,5 +1,0 @@
-name: superfabpy
-channels:
-  - conda-forge
-dependencies:
-  - pyjuliacall

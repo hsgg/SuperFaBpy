@@ -21,3 +21,6 @@ Repository = "https://github.com/hsgg/SphericalFourierBesselDecompositions.jl"
 
 [tool.setuptools]
 packages = ["superfabpy"]
+
+[tool.setuptools.package-data]
+superfabpy = ["juliapkg.json"]
