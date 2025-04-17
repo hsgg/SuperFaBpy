@@ -1,6 +1,6 @@
 import juliacall
 
-jl = juliacall.newmodule("superfabpy")
+jl = juliacall.newmodule("pysuperfab")
 
 jl.seval("import SphericalFourierBesselDecompositions as SFB")
 

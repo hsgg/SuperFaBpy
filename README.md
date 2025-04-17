@@ -1,4 +1,4 @@
-# SuperFaBpy: Python wrapper for SphericalFourierBesselDecompositions.jl
+# pySuperFaB: Python wrapper for SphericalFourierBesselDecompositions.jl
 
 This is a simple Python wrapper for [`SphericalFourierBesselDecompositions.jl`](https://github.com/hsgg/SphericalFourierBesselDecompositions.jl).
 
@@ -8,6 +8,9 @@ This is a simple Python wrapper for [`SphericalFourierBesselDecompositions.jl`](
 ```
 pip install .
 ```
+
+The only dependency (from a Python perspective) is `juliacall`, which is
+available in conda as `pyjuliacall`.
 
 
 ## Usage
@@ -19,7 +22,7 @@ have it. It will also then download the
 
 Use like so:
 ```
-from superfabpy import SFB
+from pysuperfab import SFB
 
 kmin = 0.05
 rmin = 0.0

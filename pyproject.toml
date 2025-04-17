@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "superfabpy"
+name = "pysuperfab"
 version = "0.5.15"
 description = "Python wrapper for SphericalFourierBesselDecompositions.jl"
 readme = "README.md"
@@ -16,11 +16,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/hsgg/SphericalFourierBesselDecompositions.jl"
-Repository = "https://github.com/hsgg/SphericalFourierBesselDecompositions.jl"
+Homepage = "https://github.com/hsgg/pySuperFaB"
+Repository = "https://github.com/hsgg/pySuperFaB"
 
 [tool.setuptools]
-packages = ["superfabpy"]
+packages = ["pysuperfab"]
 
 [tool.setuptools.package-data]
-superfabpy = ["juliapkg.json"]
+pysuperfab = ["juliapkg.json"]
